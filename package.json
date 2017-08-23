@@ -1,0 +1,13 @@
+{
+  "bin": "cli.js",
+  "name": "package-duplication-report",
+  "version": "1.0.0",
+  "description": "Prints a report about duplicated packages in your dependency tree.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Dane Stuckel",
+  "license": "ISC",
+  "dependencies": {
+    "find-duplicate-dependencies": "^2.0.1"
+  }
+}
