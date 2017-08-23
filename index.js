@@ -7,7 +7,7 @@ findDuplicateDependencies().then(function (result) {
     const list = result[packageName];
 
     let str = packageName + ':\n';
-    str += list.forEach(item => '  ' + [item.version, item.path.split('/').join('->'), item.from].join(', ')).join('\n');
+    str += list.map(item => '  ' + [item.version, item.path.split('/').join('->'), item.from].join(', ')).join('\n');
 
     console.log(str);
   }

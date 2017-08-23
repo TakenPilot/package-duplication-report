@@ -1,7 +1,7 @@
 {
   "bin": "cli.js",
   "name": "package-duplication-report",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Prints a report about duplicated packages in your dependency tree.",
   "main": "index.js",
   "scripts": {},
