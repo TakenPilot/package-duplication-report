@@ -1,6 +1,9 @@
 # Package Duplication Report
 Prints a list of duplicated packages in your repository from the command list
 
+> **⚠ Warning**
+> Use [vovacodes/find-duplicate-dependencies](https://github.com/vovacodes/find-duplicate-dependencies) directly instead since they now support a cli.
+
 ### Usage
 
 ```bash
